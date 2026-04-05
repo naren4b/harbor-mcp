@@ -1,0 +1,11 @@
+[project]
+name = "harbor-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "harborapi>=0.26.2",
+    "mcp[cli]>=1.27.0",
+]
